@@ -1,9 +1,9 @@
 # Online_BookStore-Analysis-Using-SQL
 
-### 1. PROJECT OVERVIEW:
+## 1. PROJECT OVERVIEW:
 This project focuses on analyzing an online bookstore dataset using SQL to extract meaningful insights related to sales performance, customer behavior, and inventory management.
 
-### 2. PROBLEM STATEMENT:
+## 2. PROBLEM STATEMENT:
 An online bookstore collects large amounts of transactional data, but lacks clarity on how to use this data effectively for decision-making.
 The business is facing the following challenges:
 - Which **genres and books** are performing well?
@@ -18,14 +18,14 @@ Without answering these questions, the business cannot:
 - Identify **high-value customers**
 - **Maximize revenue** opportunities
 
-### 3. OBJECTIVE: 
+## 3. OBJECTIVE: 
 The goal of this project is to use SQL to:
 - Analyze book **sales and pricing trends**
 - Understand **customer purchasing patterns**
 - Identify **high-performing products and customers**
 - Generate insights to **support business decisions**
 
-### 4. DATABASE SCHEMA:
+## 4. DATABASE SCHEMA:
 The analysis is performed using structured query language (SQL) by working with three relational tables: Books, Customers, and Orders.
  - **BOOKS TABLE:** Stores information about all available books in the bookstore.
    
@@ -69,7 +69,7 @@ The analysis is performed using structured query language (SQL) by working with 
 
 -- Tracks sales transactions -- Used for revenue analysis -- Helps identify buying patterns
 
-### 5. SQL CONCEPTS USED: 
+## 5. SQL CONCEPTS USED: 
 This project covers:
 - **Data Definition Language (DDL):** CREATE DATABASE, CREATE TABLE, DROP TABLE
 - **Data Query Language (DQL):** SELECT, WHERE
@@ -78,11 +78,64 @@ This project covers:
 - **Joins:** INNER JOIN
 - **Grouping:** GROUP BY, HAVING
 
-### 6. ANALYSIS AND BUSINESS QUESTIONS: 
-### 7. KEY INSIGHTS: 
-### 8. HOW TO RUN THIS PROJECT:
-### 9. KEY SKILLS DEMONSTRATED:
-### 10. RESULT AND CONCLUSION: 
+## 6. ANALYSIS AND BUSINESS QUESTIONS: 
+
+### - Basic Analysis
+
+1. Retrieve all books in the **Fiction genre**  
+1. Find books published after the year **1950**  
+1. List all customers from **Canada**  
+1. Show all orders placed in **November 2023**  
+1. Calculate the **total stock** of books available  
+1. Identify the **most expensive book**  
+1. Find customers who ordered **more than 1 quantity**  
+1. Retrieve orders where **total amount exceeds $20**  
+1. List all **available book genres**  
+1. Identify the book with the **lowest stock**  
+1. Calculate the **total revenue** generated from all orders  
+
+### - Intermediate Analysis
+
+1. Calculate the **total number of books sold per genre**  
+1. Find the **average price** of books in the Fantasy genre  
+1. Identify customers who have placed **at least 2 orders**  
+1. Determine the **most frequently ordered book**  
+1. Retrieve the **top 3 most expensive Fantasy books**  
+1. Calculate total **books sold by each author**  
+1. Identify cities where customers spent **more than $30**  
+1. Find the **highest spending customer**  
+
+## 7. KEY INSIGHTS: 
+- High-value customers drive a significant share of revenue  
+- Strong repeat customer base exists  
+- Certain genres dominate sales performance  
+- High-value transactions are common  
+- Inventory gaps exist for some products  
+
+## 8. HOW TO RUN THIS PROJECT:
+
+1. Create the database:
+   CREATE DATABASE Online_Bookstore;
+2. Select the database:
+   USE Online_Bookstore;
+3. Run the table creation queries (Books, Customers, Orders)
+4. Import CSV files using MySQL Workbench (Table Data Import Wizard)
+5. Execute all queries from the analysis file step by step
+
+## 9. KEY SKILLS DEMONSTRATED:
+- SQL querying and data manipulation  
+- Data analysis and interpretation  
+- Use of joins, aggregation, and filtering  
+- Business problem-solving  
+- Analytical thinking
+
+## 10. FUTURE IMPROVEMENTS: 
+- Build a Power BI dashboard for visualization  
+- Add advanced SQL queries (window functions, CTEs)  
+- Expand dataset for deeper analysis  
+
+## 11. CONCLUSION: 
+This project demonstrates how SQL can be used to analyze structured data and extract meaningful business insights. It highlights the ability to combine technical SQL skills with business understanding to support data-driven decision-making.
 
 
 
